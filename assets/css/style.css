@@ -101,7 +101,7 @@ p {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: .85rem;
+    gap: .75rem;
 }
 
 .list li {
@@ -156,7 +156,7 @@ p {
         color: var(--rose-800);
     }
 
-    & .info li::before {
+    & .ul.info li::before {
         background-color: var(--rose-800);
     }
 
@@ -175,7 +175,11 @@ p {
         color: var(--brown-800);
     }
 
-    & .info li::before {
+    & .ul.list li::before {
+        background-color: var(--brown-800);
+    }
+
+    & .ol.info li::before {
         color: var(--brown-800);
     }
 }
